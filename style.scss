@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+  padding-right: 40px;
+  width: 560px;
+  height: 200px;
+}
+
+@import "sass/_animation.scss";
+
+#run {
+  position: fixed; /* or absolute */
+  top: 45%;
+  left: 45%;
+  padding: 20px 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: white;
+  border-radius: 7px;
+  border: solid pink 3px;
+  color: pink;
+  font-size: 20px;
+  &:hover {
+    background-color: pink;
+    border: solid white 3px;
+    color: white;
+  }
+}
+
+#quote {
+  position: fixed; /* or absolute */
+  top: 55%;
+  left: 34%;
+  text-align: center;
+  background-color: white;
+  border: solid pink 3px;
+  color: pink;
+}
+
+h1 {
+  position: fixed; /* or absolute */
+  top: 35%;
+  left: 42%;
+  color: white;
+  text-align: center;
+}
